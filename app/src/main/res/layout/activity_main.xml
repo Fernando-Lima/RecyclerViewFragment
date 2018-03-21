@@ -9,15 +9,14 @@
 
 
     <Button
-        android:id="@+id/btn_carro"
+        android:id="@+id/btn_main_frag1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="CARRO" />
+        android:text="Fragment1" />
 
-    <RelativeLayout
-        android:id="@+id/fragment_container"
+    <fragment
+        android:id="@+id/fragment"
+        android:name="android.support.v4.app.ListFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </RelativeLayout>
+        android:layout_height="match_parent" />
 </LinearLayout>
